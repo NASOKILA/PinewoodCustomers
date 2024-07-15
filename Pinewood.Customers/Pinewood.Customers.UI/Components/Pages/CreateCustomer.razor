@@ -1,0 +1,57 @@
+﻿@page "/create-customer"
+@using Pinewood.Customers.Models.ViewModels
+@using System.Text.Json
+@using System.Text
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<PageTitle>Create Customer</PageTitle>
+
+<h1>Create Customer</h1>
+
+<EditForm Model="customer" OnValidSubmit="SaveCustomer" FormName="CreateCustomerForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <InputText id="name" class="form-control" @bind-Value="customer.Name" />
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <InputText id="email" class="form-control" @bind-Value="customer.Email" />
+    </div>
+    <div class="mb-3">
+        <label for="age" class="form-label">Age</label>
+        <InputNumber id="age" class="form-control" @bind-Value="customer.Age" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public Customer customer { get; set; }
+
+    protected override void OnInitialized() => customer ??= new();
+
+    private async Task SaveCustomer()
+    {
+        var customerJson = JsonSerializer.Serialize(customer);
+
+        var content = new StringContent(customerJson, Encoding.UTF8, "application/json");
+
+        var response = await Http.PostAsync("https://localhost:7290/api/customers", content);
+
+        if (response.IsSuccessStatusCode)
+        {
+            Navigation.NavigateTo("/customers");
+        }
+        else
+        {
+            Console.WriteLine("Error saving customer.");
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Kz8+pwAz5Gvz1vxrwQSzuOfgzVR5+1JGeOfzxaRLc0NUzE0g93krIevQWvyCgb0caUhH0MrDsbtFbabx6FwrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://company-squid:3128'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+﻿@page "/customers"
+@using Pinewood.Customers.Models.ViewModels
+@rendermode InteractiveServer
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<PageTitle>Customers</PageTitle>
+
+<h1>Customers</h1>
+<br />
+<br />
+<br />
+
+@if (customers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var customer in customers)
+        {
+            <li>
+                @customer.Name (@customer.Email) (@customer.Age)
+                <button class="btn btn-secondary" @onclick="() => RedirectToEditCustomerPage(customer.Id)">Edit</button>
+                <button class="btn btn-danger" @onclick="() => DeleteCustomer(customer.Id)">Delete</button>
+            </li>
+            <br />
+        }
+    </ul>
+    @if (customers.Count < 1)
+    {
+        <p>No customers.</p>
+    }
+}
+
+@code {
+    private List<Customer> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCustomers();
+    }
+
+    protected async Task LoadCustomers()
+    {
+        try
+        {
+            customers = await Http.GetFromJsonAsync<List<Customer>>("https://localhost:7290/api/customers");
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error loading customers: {ex.Message}");
+            customers = new List<Customer>();
+        }
+    }
+
+    private void RedirectToEditCustomerPage(int id)
+    {
+        Navigation.NavigateTo($"/edit-customer/{id}");
+    }
+
+    private async Task DeleteCustomer(int id)
+    {
+        try
+        {
+            var response = await Http.DeleteAsync($"https://localhost:7290/api/customers/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                var customer = customers.FirstOrDefault(c => c.Id == id);
+                if (customer != null)
+                {
+                    customers.Remove(customer);
+                    StateHasChanged(); // Ensure the UI is updated after deletion
+                }
+            }
+            else
+            {
+                Console.Error.WriteLine($"Error deleting customer: {response.ReasonPhrase}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error deleting customer: {ex.Message}");
+        }
+    }
+}

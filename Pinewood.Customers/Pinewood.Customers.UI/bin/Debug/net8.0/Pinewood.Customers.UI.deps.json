@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Pinewood.Customers.UI/1.0.0": {
+        "dependencies": {
+          "Pinewood.Customers.Models": "1.0.0"
+        },
+        "runtime": {
+          "Pinewood.Customers.UI.dll": {}
+        }
+      },
+      "Pinewood.Customers.Models/1.0.0": {
+        "runtime": {
+          "Pinewood.Customers.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pinewood.Customers.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pinewood.Customers.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

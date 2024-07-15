@@ -1,0 +1,431 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Tests\\Pinewood.Customers.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\Pinewood.Customers.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\Pinewood.Customers.Db.csproj",
+        "projectName": "Pinewood.Customers.Db",
+        "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\Pinewood.Customers.Db.csproj",
+        "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://company-squid:3128": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj",
+        "projectName": "Pinewood.Customers.Models",
+        "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj",
+        "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://company-squid:3128": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Repo\\Pinewood.Customers.Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Repo\\Pinewood.Customers.Repo.csproj",
+        "projectName": "Pinewood.Customers.Repo",
+        "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Repo\\Pinewood.Customers.Repo.csproj",
+        "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://company-squid:3128": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\Pinewood.Customers.Db.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\Pinewood.Customers.Db.csproj"
+              },
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Tests\\Pinewood.Customers.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Tests\\Pinewood.Customers.Tests.csproj",
+        "projectName": "Pinewood.Customers.Tests",
+        "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Tests\\Pinewood.Customers.Tests.csproj",
+        "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://company-squid:3128": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj"
+              },
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customets.API\\Pinewood.Customers.API.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customets.API\\Pinewood.Customers.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customets.API\\Pinewood.Customers.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customets.API\\Pinewood.Customers.API.csproj",
+        "projectName": "Pinewood.Customers.API",
+        "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customets.API\\Pinewood.Customers.API.csproj",
+        "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customets.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://company-squid:3128": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\Pinewood.Customers.Db.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Db\\Pinewood.Customers.Db.csproj"
+              },
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Models\\Pinewood.Customers.Models.csproj"
+              },
+              "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Repo\\Pinewood.Customers.Repo.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.Repo\\Pinewood.Customers.Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

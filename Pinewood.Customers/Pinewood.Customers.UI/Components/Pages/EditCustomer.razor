@@ -1,0 +1,106 @@
+﻿@page "/edit-customer/{id:int}"
+@using Pinewood.Customers.Models.ViewModels
+@using System.Text.Json
+@using System.Text
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<PageTitle>Edit Customer</PageTitle>
+
+<h1>Edit Customer</h1>
+
+@if (customer != null)
+{
+    <EditForm Model="@customer" FormName="EditCustomer" OnValidSubmit="@UpdateCustomer">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <EditFormEditContext Context="editContext">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <InputText id="name" class="form-control" @bind-Value="customer.Name" />
+                <ValidationMessage For="@(() => customer.Name)" />
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <InputText id="email" class="form-control" @bind-Value="customer.Email" />
+                <ValidationMessage For="@(() => customer.Email)" />
+            </div>
+            <div class="mb-3">
+                <label for="age" class="form-label">Age</label>
+                <InputNumber id="age" class="form-control" @bind-Value="customer.Age" />
+                <ValidationMessage For="@(() => customer.Age)" />
+            </div>
+        </EditFormEditContext>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public Customer customer { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (customer == null)
+        {
+            await FetchCustomerById(Id);
+        }
+    }
+
+    private async Task FetchCustomerById(int id)
+    {
+        try
+        {
+            // Fetch Customer from the API
+            var response = await Http.GetAsync($"https://localhost:7290/api/customers/{id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var json = await response.Content.ReadAsStringAsync();
+                customer = JsonSerializer.Deserialize<Customer>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                Console.WriteLine($"Fetched and deserialized customer: {JsonSerializer.Serialize(customer)}");
+            }
+            else
+            {
+                Console.WriteLine($"Error fetching customer: {response.ReasonPhrase}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception fetching customer: {ex.Message}");
+        }
+    }
+
+    private async Task UpdateCustomer()
+    {
+        try
+        {
+            customer.Id = Id;
+            var customerJson = JsonSerializer.Serialize(customer);
+            var content = new StringContent(customerJson, Encoding.UTF8, "application/json");
+            var response = await Http.PutAsync($"https://localhost:7290/api/customers/{customer.Id}", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Custoemr is updated correctly.");
+            }
+            else
+            {
+                Console.WriteLine("Error updating customer.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception updating customer: {ex.Message}");
+        }
+    }
+}

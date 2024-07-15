@@ -1,0 +1,17 @@
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\bin\Debug\net8.0\Pinewood.Customers.Db.deps.json
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\bin\Debug\net8.0\Pinewood.Customers.Db.runtimeconfig.json
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\bin\Debug\net8.0\Pinewood.Customers.Db.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\bin\Debug\net8.0\Pinewood.Customers.Db.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\bin\Debug\net8.0\Pinewood.Customers.Models.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\bin\Debug\net8.0\Pinewood.Customers.Models.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.csproj.AssemblyReference.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.AssemblyInfoInputs.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.AssemblyInfo.cs
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.csproj.CoreCompileInputs.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.csproj.CopyComplete
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\refint\Pinewood.Customers.Db.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\Pinewood.Customers.Db.genruntimeconfig.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Db\obj\Debug\net8.0\ref\Pinewood.Customers.Db.dll

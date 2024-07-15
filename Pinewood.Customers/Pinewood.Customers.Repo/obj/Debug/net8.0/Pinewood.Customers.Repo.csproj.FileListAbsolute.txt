@@ -1,0 +1,17 @@
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\bin\Debug\net8.0\Pinewood.Customers.Repo.deps.json
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\bin\Debug\net8.0\Pinewood.Customers.Repo.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\bin\Debug\net8.0\Pinewood.Customers.Repo.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\bin\Debug\net8.0\Pinewood.Customers.Db.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\bin\Debug\net8.0\Pinewood.Customers.Models.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\bin\Debug\net8.0\Pinewood.Customers.Db.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\bin\Debug\net8.0\Pinewood.Customers.Models.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.csproj.AssemblyReference.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.AssemblyInfoInputs.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.AssemblyInfo.cs
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.csproj.CoreCompileInputs.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.csproj.CopyComplete
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\refint\Pinewood.Customers.Repo.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\Pinewood.Customers.Repo.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Repo\obj\Debug\net8.0\ref\Pinewood.Customers.Repo.dll

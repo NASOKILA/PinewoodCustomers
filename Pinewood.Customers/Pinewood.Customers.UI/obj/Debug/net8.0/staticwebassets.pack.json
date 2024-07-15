@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Pinewood.Customers.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Pinewood.Customers.UI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.UI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atana\\Desktop\\DESKTOP\\Pinewood.Customers\\Pinewood.Customers.UI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pinewood.Customers.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Pinewood.Customers.UI.props",
+      "PackagePath": "build\\Pinewood.Customers.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Pinewood.Customers.UI.props",
+      "PackagePath": "buildMultiTargeting\\Pinewood.Customers.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Pinewood.Customers.UI.props",
+      "PackagePath": "buildTransitive\\Pinewood.Customers.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

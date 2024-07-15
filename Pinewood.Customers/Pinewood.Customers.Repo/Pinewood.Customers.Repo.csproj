@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="vqo43skh.rkk~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pinewood.Customers.Db\Pinewood.Customers.Db.csproj" />
+    <ProjectReference Include="..\Pinewood.Customers.Models\Pinewood.Customers.Models.csproj" />
+  </ItemGroup>
+
+</Project>

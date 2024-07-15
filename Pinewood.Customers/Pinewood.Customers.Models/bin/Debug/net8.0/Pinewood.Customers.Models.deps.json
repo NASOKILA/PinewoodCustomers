@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Pinewood.Customers.Models/1.0.0": {
+        "runtime": {
+          "Pinewood.Customers.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pinewood.Customers.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

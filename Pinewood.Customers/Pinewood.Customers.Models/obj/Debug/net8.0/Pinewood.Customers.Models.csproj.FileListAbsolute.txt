@@ -1,0 +1,11 @@
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\bin\Debug\net8.0\Pinewood.Customers.Models.deps.json
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\bin\Debug\net8.0\Pinewood.Customers.Models.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\bin\Debug\net8.0\Pinewood.Customers.Models.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\Pinewood.Customers.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\Pinewood.Customers.Models.AssemblyInfoInputs.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\Pinewood.Customers.Models.AssemblyInfo.cs
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\Pinewood.Customers.Models.csproj.CoreCompileInputs.cache
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\Pinewood.Customers.Models.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\refint\Pinewood.Customers.Models.dll
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\Pinewood.Customers.Models.pdb
+C:\Users\atana\Desktop\DESKTOP\Pinewood.Customers\Pinewood.Customers.Models\obj\Debug\net8.0\ref\Pinewood.Customers.Models.dll

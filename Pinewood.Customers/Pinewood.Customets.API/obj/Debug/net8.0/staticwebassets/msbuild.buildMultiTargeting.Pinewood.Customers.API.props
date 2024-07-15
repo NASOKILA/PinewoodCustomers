@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Pinewood.Customers.API.props" />
+</Project>
